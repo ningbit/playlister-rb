@@ -1,3 +1,7 @@
+require "lib/artist.rb"
+require "lib/song.rb"
+require "lib/genre.rb"
+
 def test(title, &b)
   begin
     if b
